@@ -1,0 +1,140 @@
+*{
+     background-color: #1E201E; 
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+
+.navv {
+    border: none!important;
+}
+
+.nav-link-color{
+    color: #f9e12c !important;
+    font-weight: 450;
+    font-size: 19px;
+}
+
+
+
+.nav-link-color:hover {
+    color: #ffffff!important;
+}
+
+.nav-link-color::after {
+    color: #DA9F5B !important;
+}
+
+.carousel-item img {
+    max-height: 90vh; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 4, 0.596); /* Adjust the color and opacity */
+    pointer-events: none; /* Allows clicking through the overlay */
+}
+
+
+.carousel {
+    height: 90%; 
+    overflow: hidden;
+
+}
+
+.carousel-indicators {
+    bottom: 10px; 
+    background-color: unset;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.142); 
+    border-radius: 50%;
+    padding: 15px;
+    z-index: 2;
+    
+} 
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:unset;
+    z-index: 2;
+}
+ 
+.carousel-caption h2 {
+    font-size: 40px;
+    font-weight: 500;
+    word-spacing: 10px;
+    background-color: unset;
+    z-index: 2;
+
+}
+
+.carousel-caption h4  {
+    font-size: 30px;
+    font-weight: 300;
+    background: none;
+}
+.carousel-caption h4 span  {
+    font-style: oblique;
+    color: #f9e12c;
+    background: none;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+
+.carousel-caption h1 {
+    font-size: 50px;
+    font-weight: 200;
+    background: none;
+    font-family:serif
+
+}
+
+.about-us {
+    position: relative;
+    padding-top: 80px;
+}
+
+.about-us::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60px;
+    top: 0;
+    left: 50%;
+    margin-left: 1px;
+    background: #f9e12c;
+}
+
+.bi-check {
+    color: #f9e12c;
+    font-size: 30px;
+}
+
+.about-text{
+    color: #b8aaaa;
+}
+.our-story span{
+    color: #f9e12c;
+    font-size: 22px;
+    font-weight: 300!important;
+}
